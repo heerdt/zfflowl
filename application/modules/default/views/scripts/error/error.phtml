@@ -1,0 +1,17 @@
+<?php 
+
+$this->headTitle()->set('Ops... « O Correio do Povo');
+$this->placeholder('title')->set('Ops...');
+$this->headMeta()->appendName('ROBOTS','NOINDEX, FOLLOW');
+
+?>
+<h1>Ops...</h1>
+<div class="text">
+	<p>A página solicitada não foi encontrada! É provável que foi por um dos motivos abaixo:</p>
+	<ul class="disc" style="margin: 0 0 20px 20px">
+		<li>Se você digitou o URL diretamente, por favor, certifique-se a ortografia está correta.</li>
+		<li>Se você clicou em um link para chegar até aqui, o link está desatualizado.</li>
+	</ul>
+	
+	<p>Ir para <a href="<?php echo $this->url(array(),'default-index'); ?>">O Correio do Povo</a>.</p>
+</div>

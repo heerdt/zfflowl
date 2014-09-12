@@ -1,0 +1,45 @@
+<?php
+
+$frontControllerName = Zend_Controller_Front::getInstance()->getRequest()->getControllerName();
+$frontActionName     = Zend_Controller_Front::getInstance()->getRequest()->getActionName();
+
+$this->headTitle('Floowl')->setSeparator(' | ');
+
+$this->headMeta()->prependHttpEquiv('Content-Type','text/html; charset=UTF-8');
+$this->headMeta()->prependHttpEquiv('X-UA-Compatible','IE=edge');
+$this->headMeta()->prependHttpEquiv('content-language',strtolower(str_replace('_','-',Zend_Registry::get('Zend_Locale'))));
+
+$this->headLink()->appendStylesheet($this->baseUrl('css/main.css'),'screen');
+$this->headLink(array('rel' => 'shortcut icon','href' => $this->url(array(),'media-index') . 'styles/default/images/favicon.png'));
+$this->headLink(array('rel' => 'canonical','href' => $this->url()));
+
+$this->headScript()->appendFile($this->baseUrl('js/main.js'));
+
+
+?>
+<?php echo '<?xml version="1.0" encoding="UTF-8" ?>' . "\r\n"; ?>
+<?php echo $this->doctype()->__toString() . "\r\n"; ?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?= strtolower(str_replace('_','-',Zend_Registry::get('Zend_Locale'))) ?>" dir="ltr">
+
+	<head>
+<?php 
+
+echo $this->headTitle()->toString() . "\r\n";
+echo $this->headMeta()->toString() . "\r\n";
+echo (APPLICATION_ENV != 'adevelopment' ? $this->headLink()->toString() : $this->compressStyle()) . "\r\n";
+echo (APPLICATION_ENV != 'adevelopment' ? $this->headScript()->toString() :  $this->compressScript()) . "\r\n";
+echo $this->navigation()->setRole('Guest')->links();
+
+?>
+<?php if (APPLICATION_ENV == 'production'): ?>
+
+<?php endif; ?>
+	</head>
+
+	<body class="site-<?php echo $frontControllerName; ?> site-<?php echo $frontControllerName . '-' . $frontActionName; ?>">
+		
+		<div id="title"><h1><?php echo $this->placeholder('title'); ?></h1></div>
+						<?php echo $this->layout()->content ?>
+
+	</body>
+</html>

@@ -1,0 +1,86 @@
+array (
+  'times' => 
+  array (
+    'normal' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Times-Roman',
+    'bold' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Times-Bold',
+    'italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Times-Italic',
+    'bold_italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Times-BoldItalic',
+  ),
+  'times-roman' => 
+  array (
+    'normal' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Times-Roman',
+    'bold' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Times-Bold',
+    'italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Times-Italic',
+    'bold_italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Times-BoldItalic',
+  ),
+  'courier' => 
+  array (
+    'normal' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Courier',
+    'bold' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Courier-Bold',
+    'italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Courier-Oblique',
+    'bold_italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Courier-BoldOblique',
+  ),
+  'helvetica' => 
+  array (
+    'normal' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Helvetica',
+    'bold' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Helvetica-Bold',
+    'italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Helvetica-Oblique',
+    'bold_italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Helvetica-BoldOblique',
+  ),
+  'zapfdingbats' => 
+  array (
+    'normal' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/ZapfDingbats',
+    'bold' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/ZapfDingbats',
+    'italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/ZapfDingbats',
+    'bold_italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/ZapfDingbats',
+  ),
+  'serif' => 
+  array (
+    'normal' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Times-Roman',
+    'bold' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Times-Bold',
+    'italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Times-Italic',
+    'bold_italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Times-BoldItalic',
+  ),
+  'monospace' => 
+  array (
+    'normal' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Courier',
+    'bold' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Courier-Bold',
+    'italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Courier-Oblique',
+    'bold_italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Courier-BoldOblique',
+  ),
+  'fixed' => 
+  array (
+    'normal' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Courier',
+    'bold' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Courier-Bold',
+    'italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Courier-Oblique',
+    'bold_italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/Courier-BoldOblique',
+  ),
+  'arial' => 
+  array (
+    'normal' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/arial',
+    'bold' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/arialbd',
+    'italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/arial',
+    'bold_italic' => '/var/www/comprarmma/sync/shipping/dompdf/lib/fonts/arial',
+  ),
+  'arialnovo' => 
+  array (
+    'normal' => '/srv/www/htdocs/magento/sync/shipping/dompdf/lib/fonts/arial',
+    'bold' => '/srv/www/htdocs/magento/sync/shipping/dompdf/lib/fonts/arialbd',
+    'italic' => '/srv/www/htdocs/magento/sync/shipping/dompdf/lib/fonts/arial',
+    'bold_italic' => '/srv/www/htdocs/magento/sync/shipping/dompdf/lib/fonts/arial',
+  ),
+  'codeab' => 
+  array (
+    'normal' => '/srv/www/htdocs/magento/sync/shipping/dompdf/lib/fonts/bc128abt',
+    'bold' => '/srv/www/htdocs/magento/sync/shipping/dompdf/lib/fonts/bc128abt',
+    'italic' => '/srv/www/htdocs/magento/sync/shipping/dompdf/lib/fonts/bc128abt',
+    'bold_italic' => '/srv/www/htdocs/magento/sync/shipping/dompdf/lib/fonts/bc128abt',
+  ),
+  'codec' => 
+  array (
+    'normal' => '/srv/www/htdocs/magento/sync/shipping/dompdf/lib/fonts/bc128ct',
+    'bold' => '/srv/www/htdocs/magento/sync/shipping/dompdf/lib/fonts/bc128ct',
+    'italic' => '/srv/www/htdocs/magento/sync/shipping/dompdf/lib/fonts/bc128ct',
+    'bold_italic' => '/srv/www/htdocs/magento/sync/shipping/dompdf/lib/fonts/bc128ct',
+  ),
+)
